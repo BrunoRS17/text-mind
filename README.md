@@ -64,12 +64,10 @@ Para textos curtos, você pode passar o texto diretamente:
 python main.py "O Python é uma linguagem fantástica e muito poderosa para dados."
 ```
 
-## 🧠 Decisões de Engenharia
 
 Para este projeto, foquei em resolver dois problemas comuns em análise de texto:
 1. **Filtragem de Ruído:** Implementei o uso de *Stopwords* do NLTK para garantir que as palavras-chave fossem semânticas e não apenas conectivos (como "de", "e", "para").
 2. **Coesão no Resumo:** Em vez de selecionar apenas as frases com maior pontuação, o algoritmo divide o texto em segmentos (início, meio e fim) e extrai a frase mais relevante de cada parte, preservando a linha narrativa original.
 
----
 Desenvolvido por Bruno Ribeiro - https://www.linkedin.com/in/bruno-ribeiro-778243264/
 ```
