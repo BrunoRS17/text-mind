@@ -23,8 +23,8 @@ O **TextMind** é uma ferramenta de linha de comando (CLI) desenvolvida em Pytho
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/textmind.git](https://github.com/seu-usuario/textmind.git)
-   cd textmind
+   git clone https://github.com/BrunoRS17/text-mind.git
+   cd text-mind
    ```
 
 2. **Crie e ative um ambiente virtual:**
