@@ -1,10 +1,4 @@
-Um **README.md** é a "vitrine" do seu portfólio. Ele precisa explicar não só o que o projeto faz, mas também as decisões técnicas que você tomou. Isso demonstra maturidade como desenvolvedor.
 
-Aqui está uma estrutura de alto nível para o seu **TextMind**:
-
----
-
-```markdown
 # 🧠 TextMind — Analisador Inteligente de Texto
 
 O **TextMind** é uma ferramenta de linha de comando (CLI) desenvolvida em Python para processamento de linguagem natural (PLN). Ele permite analisar artigos, logs e mensagens, extraindo métricas estatísticas, sentimentos e gerando resumos executivos de forma automatizada.
@@ -77,18 +71,5 @@ Para este projeto de portfólio, foquei em resolver dois problemas comuns em an�
 2. **Coesão no Resumo:** Em vez de selecionar apenas as frases com maior pontuação, o algoritmo divide o texto em segmentos (início, meio e fim) e extrai a frase mais relevante de cada parte, preservando a linha narrativa original.
 
 ---
-Desenvolvido por [Seu Nome] - [Seu LinkedIn]
+Desenvolvido por Bruno Ribeiro - https://www.linkedin.com/in/bruno-ribeiro-778243264/
 ```
-
----
-
-### Dica extra para o seu Portfólio:
-Antes de subir para o GitHub, crie o arquivo `requirements.txt`. Você pode gerar ele automaticamente rodando:
-
-```bash
-pip freeze > requirements.txt
-```
-
-Isso garante que quem baixar seu projeto conseguirá instalar exatamente as mesmas versões das bibliotecas que você usou. 
-
-O projeto ficou excelente! Precisando de mais algum ajuste ou de uma nova ideia para expandir o **TextMind**, é só chamar. 🚀
