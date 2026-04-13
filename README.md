@@ -13,7 +13,7 @@ O **TextMind** é uma ferramenta de linha de comando (CLI) desenvolvida em Pytho
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.10+**
+- **Python 3.13+**
 - **NLTK:** Processamento de linguagem natural e tokenização.
 - **TextBlob:** Análise de sentimentos.
 - **Rich:** Formatação e interface visual no terminal.
@@ -66,7 +66,7 @@ python main.py "O Python é uma linguagem fantástica e muito poderosa para dado
 
 ## 🧠 Decisões de Engenharia
 
-Para este projeto de portfólio, foquei em resolver dois problemas comuns em análise de texto:
+Para este projeto, foquei em resolver dois problemas comuns em análise de texto:
 1. **Filtragem de Ruído:** Implementei o uso de *Stopwords* do NLTK para garantir que as palavras-chave fossem semânticas e não apenas conectivos (como "de", "e", "para").
 2. **Coesão no Resumo:** Em vez de selecionar apenas as frases com maior pontuação, o algoritmo divide o texto em segmentos (início, meio e fim) e extrai a frase mais relevante de cada parte, preservando a linha narrativa original.
 
